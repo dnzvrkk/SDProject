@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px; // Adds distance between buttons
+    margin: 3vh;
+  }
+  
+  .buttons{
+    display: flex;
+    gap: 20px; // Adds space between buttons
+  }
+  
+  button {
+    background-color: #1890ff; // Set the button color
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #40a9ff; // Change color on hover
+    transform: scale(1.05); // Slightly enlarge the button on hover
+  }
+  
+  .uploadbutton {
+    background-color: #52c41a; // Set the upload button color
+  }
+  
+  .uploadbutton:hover {
+    background-color: #73d13d; // Change color on hover for upload button
+  }
+  .needReferralActive {
+    background-color: #f5222d; // Red background when "Need Referral" is active
+    color: rgb(129, 36, 36);
+  }
+  
+  .noReferralActive {
+    background-color: #d4f798; // Green background when "Do Not Need Referral" is active
+    color: rgb(0, 0, 0);
+  }
+  // Styling for the "referral" column cells in the table
+  .needReferralCell {
+    background-color: #f5222d !important; /* Red background for "Need referral" */
+    color: white !important;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.noReferralCell {
+    background-color: #52c41a !important; /* Green background for "No referral needed" */
+    color: white !important;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50px; 
+  padding-top: 10px; 
+  background-color: #797979; 
+  text-align: center;
+}

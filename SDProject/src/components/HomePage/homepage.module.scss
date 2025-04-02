@@ -1,0 +1,23 @@
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+
+    .chart-item {
+        background: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50px; 
+    padding-top: 10px; 
+    background-color: #797979; 
+    text-align: center;
+}
